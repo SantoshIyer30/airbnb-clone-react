@@ -4,27 +4,27 @@ import displaypic from "./images/image 12.png";
 import star from "./images/Star 1.png";
 import status from "./images/Group 80.png";
 
-function Card(){
+function Card(props){
+    console.log(props);
     return(
         <div className="card">
             <div className="card-img">
-                <img src = {displaypic} className="display-pic" alt=''/>
+                <img src = {props.img} className="display-pic" alt=''/>
                 {/* <img src = {status} className="status" alt=''/> */}
             </div>
             <div className="about">
                 <img src = {star} className="star" alt=''/>
-                <p className="rating"> 5.0 </p>
-                <p className="comment"> (6) </p>
-                <p className="country"> USA </p>
+                <p className="rating"> {props.rating} </p>
+                <p className="comment"> {props.comment} </p>
+                <p className="country"> {props.country} </p>
             </div>
             <p className="c-name">
-                Life lessons with Katie Zaferes
+                {props.cname}
             </p>
             <div className="rate">
-                <p>From $136</p>
+                <p>{props.rate}</p>
                  / person
             </div>
-         
         </div>
      )
 }
