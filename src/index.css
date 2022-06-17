@@ -1,0 +1,109 @@
+*{
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  margin: 0;
+}
+
+.navbar{
+  display: flex;
+  padding: 15px;
+  box-shadow: 0px 2.9825618267059326px 7.456404209136963px 0px #0000001A;
+  ;
+  
+}
+
+.nav-logo{
+  height: 33px;
+  
+}
+
+.hero{
+  padding: 25px;
+  max-width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-logo{
+  max-width: 100%;
+  align-self: center;
+
+}
+
+.hero-header{
+  text-align: left;
+  width: 347px;
+  height: 40px;
+  left: 36px;
+  top: 360px;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 110%;
+  color: #000000;
+}
+
+.hero-content{
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 110%;  
+  color: #222222;
+  text-align: left;
+}
+
+.card{
+  text-align: left;
+  margin-left: 100px;
+}
+
+.about{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  margin-bottom: 0%;
+}
+
+.star{
+  width: 16px;
+  height: 16px;
+  margin: 6px;
+}
+
+.rating{
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+}
+
+.comment , .country {
+  margin: 3px;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+  color: #918E9B;
+}
+
+.c-name{
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 110%;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.rate{
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  font-size: 12px;
+  line-height: 110%;
+  margin-top: 0;
+}
+
+.rate>p{
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 110%;
+}
+
