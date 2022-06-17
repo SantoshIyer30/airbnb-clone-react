@@ -53,9 +53,17 @@ body{
   text-align: left;
 }
 
+.cards{
+  display: flex;
+}
+
 .card{
   text-align: left;
   margin-left: 100px;
+}
+.display-pic{
+  max-width: 176px;
+  max-height: 235px;
 }
 
 .about{
