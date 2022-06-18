@@ -60,7 +60,19 @@ body{
 .card{
   text-align: left;
   margin-left: 100px;
+  position: relative;
 }
+
+.card-badge {
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  background-color: white;
+  padding: 3px 5px;
+  border-radius: 2px;
+
+}
+
 .display-pic{
   max-width: 176px;
   max-height: 235px;
