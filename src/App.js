@@ -1,19 +1,28 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Navbar from './Navbar';
 import Hero from './Hero';
 import Card from './Card';
-import displaypic1 from "./images/image 12.png";
-import displaypic2 from "./images/wedding-photography 1.png";
-import displaypic3 from "./images/mountain-bike 1.png";
+import data from "./Data"
+
+
 
 function App() {
+  const dataCard = data.map(info => {
+    return <Card
+      key={info.id}
+      {...info}
+      />
+  })
+
   return (
     <div className="App">
       <Navbar/>
       <Hero/>
       <div className='cards'>
-        <Card
+        {dataCard}
+      
+        {/* <Card
           img={displaypic1}
           rating= "5.0"
           comment="(6)"
@@ -36,7 +45,7 @@ function App() {
           country=" • USA"
           cname="Group Mountain Biking"
           rate="From $50"
-        />
+        /> */}
       </div>
     </div>
   );

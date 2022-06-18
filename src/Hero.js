@@ -1,5 +1,4 @@
 import React from "react";
-import { ReactDOM } from "react";
 import heroimage from "./images/Group 77.png";
 
 function Hero(){
